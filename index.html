@@ -2,29 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bootstrap Walkthrough</title>
+    <title>Lim Kok Hwa Page</title>
 
     <!-- default bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- try themes from: https://startbootstrap.com/-->
-    <!-- <link rel="stylesheet" type="text/css" href="theme.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="theme2.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="theme3.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="theme4.css"> -->
- -->
+    <link rel="stylesheet" type="text/css" href="index.css">
     <!-- font awesome -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
-    
     <!-- animate.css -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
     
     <!-- use this style for testing and development purposes -->
-    <style type="text/css">
+    <!-- <style type="text/css">
         .container{border: 2px dotted green;}
         .row{border: 1px dotted red;}
         .row [class*=' col-']{border: 2px dotted purple;}
-    </style>
+    </style>  -->
     
 </head>
 <body>
@@ -62,17 +55,17 @@
 <div class="container">
     
   <!-- row 1: jumbtron -->
-  <div class="row">
+  <div class="row" style="margin-top: 40px">
       <!-- full screen col -->
       <div class="col-xs-12
                   col-sm-12
                   col-md-12
                   col-lg-12">
 
-          <div class="jumbotron">
-              <h1>Hello, world!</h1>
-              <p>...</p>
-              <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+          <div class="jumbotron" style="background-color: #7c0364; color: white; text-align: center">
+              <h1>Power of your IMAGINATION</h1>
+              <p>Imagination is the power of inner vision. It is a powerful and useful tool.</p>
+              <p><a class="btn btn-primary btn-lg" href="#" role="button" style="width: 400px">Shake your imgination</a></p>
           </div>
 
       </div> <!-- end of col -->
@@ -86,11 +79,10 @@
                   col-md-4
                   col-lg-4">
           <div class="thumbnail">
-              <img src="http://placehold.it/800x600" alt="" class="img-responsive">
+              <img src="images/Chicken.jpg" alt="Chicken" class="img-responsive">
               <div class="caption">
-                  <h3>title</h3>
-                  <p>quick brown fox jumps over the lazy dog.</p>
-                  <a href="#" class="btn btn-default btn-sm">click</a>
+                  <h3>Power of Success</h3>
+                  <p>Imagination is the ability to form a mental image of something that is not perceived through the <a href="http://udel.edu/~bcarey/ART307/project1_4b/">five senses.</a> It is the ability of the mind to build mental scenes, objects or events that do not exist, are not present, or have happened in the past.</p>
               </div>
           </div>           
       </div> <!-- end of col 1 -->
@@ -101,11 +93,10 @@
                   col-md-4
                   col-lg-4">
           <div class="thumbnail">
-              <img src="http://placehold.it/800x600" alt="" class="img-responsive">
+              <img src="images/Elephant.jpg" alt="Elephant" class="img-responsive">
               <div class="caption">
-                  <h3>title</h3>
-                  <p>quick brown fox jumps over the lazy dog.</p>
-                  <a href="#" class="btn btn-default btn-sm">click</a>
+                  <h3>Shapes your Reality</h3>
+                  <p class="tn-text">Imagination can provide us with rich lifelike experiences and give us a powerful opportunity to develop empathy and compassion. But it can do even more: it can literally reshape and retrain our brains. Start to imgaine.</p>
               </div>
           </div>           
       </div> <!-- end of col 2 -->
@@ -116,11 +107,13 @@
                   col-md-4
                   col-lg-4">
           <div class="thumbnail">
-              <img src="http://placehold.it/800x600" alt="" class="img-responsive">
+              <img src="images/Graffle.jpg" alt="Graffle" class="img-responsive">
               <div class="caption">
-                  <h3>title</h3>
-                  <p>quick brown fox jumps over the lazy dog.</p>
-                  <a href="#" class="btn btn-default btn-sm">click</a>
+                  <h3>Ancient Wisdom</h3>
+                  <p>Imagination is not wishful thinking.  Wishful thinking is a function of the mind in which you are thinking about something but not in it. <u>As Albert Einstein said,</u> </p>
+                  <p style="font-size:14px; color:#538b01; font-weight:bold; font-style:italic;">
+                  "Imagination is more important than knowledge"</p>
+  
               </div>
           </div>           
       </div> <!-- end of col 3 -->
@@ -137,6 +130,7 @@
                   col-lg-12">
           <div class="embed-responsive embed-responsive-16by9">
               <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GTXP2FzQS94/?autoplay=1&loop&start=30"></iframe>
+
           </div>
       </div> <!-- end of col 1 -->
   </div> <!-- end of row 3 -->
@@ -150,44 +144,49 @@
                   col-sm-6
                   col-md-6
                   col-lg-6">
-<!--           <form action="https://coderinyou-1332.appspot.com/submit" method="post"> -->
-                <form action="https://script.google.com/macros/s/AKfycbxS7dsphvuY2s9d1GBGemYh_5pR8iYgksx5pIpehOSYFPWvwfLR/exec" method="post">
-              <legend>Sign Up</legend>
-              <div class="form-group">
-                  <label for="name-id">Name</label>
-                  <input type="text"
-                          name="NAME"
-                          id="name-id"
-                          placeholder="name" 
-                          class="form-control">
-              </div>  
-              <div class="form-group">
-                  <label for="email-id">Email</label>
-                  <input  type="text" 
-                          name="EMAIL"
-                          id="email-id"
-                          placeholder="email" 
-                          class="form-control">
-              </div>  
-              <div class="radio">
-                  <label>
-                      <input  type="radio" 
-                              name="NEWSLETTER" 
-                              value="weekly"
-                              checked="checked">
-                      send me weekly
-                  </label>
-              </div>
-              <div class="radio">
-                  <label>
-                      <input  type="radio" 
-                              name="NEWSPAPER" 
-                              value="never">
-                      never send me
-                  </label>
-              </div>
-              <input type="submit">
 
+          <form action"">
+              <legend style="color: blue">Imagination and Creativity</legend>
+              <div class="form-group">
+                  <label for="question1">What is the height of the mountain</label> 
+                  <input type="number"
+                          name="q1"
+                          id="q1-id">
+<!--                           class="form-control"> -->
+              </div>  
+              <div class="form-group">
+                  <label for="question2">What is the radius of the base of the mountain</label>
+                  <input  type="number" 
+                          name="q2"
+                          id="q2-id">
+<!--                           class="form-control"> -->
+              </div>  
+              <div class="form-group">
+                  <label for="question3">What is the colour of the mountain</label>
+                  <input  type="text" 
+                          name="q3"
+                          id="q3-id">
+<!--                           class="form-control"> -->
+              </div> 
+
+              <div class="radio">
+                  <label>
+                      <input  type="radio" 
+                              name="Gender" 
+                              value="Male"
+                              checked="checked">
+                      I am a Male
+                  </label>
+              </div>
+              <div class="radio">
+                  <label>
+                      <input  type="radio" 
+                              name="Gender" 
+                              value="female">
+                      I am a Female
+                  </label>
+              </div>
+              <input type="button" value="Submit" onclick="ImagineCalc();">
           </form>
 
       </div> <!-- end of col 1 -->
@@ -197,10 +196,14 @@
                   col-sm-6
                   col-md-6
                   col-lg-6 text-center">
-          <h1 class="text-primary">Lorem ipsum dolor sit amet?</h1>
-          <hr>
-          <p class="wow bounce">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.   </p>
-      </div> <!-- end of col 2 -->
+          <span class="rightfloat">
+              <p><h1><em>Your imagination assessement</em></h1></p>
+              <p>Fill up the form on the left and click on the submit button to see your assessment</p>
+              <span class="my-highlight" id="imagine-text"></span>
+          </span>
+          <p id="my-text"></p>
+
+       </div> <!-- end of col 2 -->
 
   </div> <!-- end of row 4 -->
 
@@ -213,25 +216,10 @@
                   col-sm-4
                   col-md-4
                   col-lg-4">
-          <table class="table table-striped">
-              <h1>Opening Hours</h1>
-              <tr>
-                  <th>Day</th>
-                  <th>Hours</th>
-              </tr>
-              <tr>
-                  <td>Monday to Thursday</td>
-                  <td>9am - 5pm</td>
-              </tr>
-              <tr>
-                  <td>Friday and Saturday</td>
-                  <td>11am - 3am</td>
-              </tr>
-              <tr>
-                  <td>Sunday</td>
-                  <td>closed</td>
-              </tr>
-          </table>
+
+              <div class="my-box">
+                 <p>Locate your imagination &rArr;</p>
+              </div>
       </div> <!-- endo of col 1 -->
 
       <!-- col 2 -->
@@ -251,7 +239,7 @@
                   col-md-4
                   col-lg-4">
 
-          <h1>Check me out</h1>
+          <h1>Useful Links</h1>
 
           <div class="list-group">
               <a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a>
@@ -285,9 +273,9 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
 <!-- bootstrap js -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 <script type="text/javascript" src="https://cdn.jsdelivr.net/wow/1.1.2/wow.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script>new WOW().init();</script>
+<script type="text/javascript" src="javascript/index.js"></script>
 </body>
 </html>
